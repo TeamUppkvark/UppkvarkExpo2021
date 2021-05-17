@@ -1,1 +1,0 @@
-# UppkvarkExpo2021
