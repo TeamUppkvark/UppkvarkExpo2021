@@ -34,8 +34,10 @@
 
 	#Uppkvark_Expo_2021 {
 		position: absolute;
-		width: 1920px;
-		height: 2642px;
+		min-width: 1024px;
+		min-height: 3000px;
+		width: 100%;
+		height: 300%;
 		background-color: rgba(40,40,40,1);
 		overflow: hidden;
 		--web-view-name: Uppkvark Expo 2021;
@@ -48,13 +50,13 @@
 		position: absolute;
 		width: 565px;
 		height: 78px;
-		left: 679px;
+		left: calc(50% - (565px * 0.5));
 		top: 153px;
 		overflow: visible;
 	}
 	#Turn-based_RPG_in_a_KTH_Kista_ {
 		filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.839));
-		left: 654px;
+		left: calc(50% - (615px * 0.5));
 		top: 301px;
 		position: absolute;
 		overflow: visible;
@@ -67,11 +69,27 @@
 		font-size: 30px;
 		color: rgba(255,168,110,1);
 	}
+
+	#npcs-container {
+		width: 100%;
+		display: flex;
+  		align-items: center;
+		text-align: center;
+  		justify-content: center;
+	}
+
+	#npcs {
+		position: absolute;
+		width: 1051px;
+		height: 168px;
+		top: 10px;
+	}
+
 	#Elin {
 		position: absolute;
 		width: 23px;
 		height: 45px;
-		left: 631px;
+		left: calc(631px - 435px);
 		top: 418px;
 		overflow: visible;
 	}
@@ -79,7 +97,7 @@
 		position: absolute;
 		width: 20px;
 		height: 40px;
-		left: 988px;
+		left: calc(988px - 435px);
 		top: 426px;
 		overflow: visible;
 	}
@@ -87,7 +105,7 @@
 		position: absolute;
 		width: 20px;
 		height: 40px;
-		left: 1346px;
+		left: calc(1346px - 435px);
 		top: 515px;
 		overflow: visible;
 	}
@@ -96,6 +114,7 @@
 		width: 20px;
 		height: 40px;
 		left: 1239px;
+		left: calc(1239px - 435px);
 		top: 423px;
 		overflow: visible;
 	}
@@ -103,7 +122,7 @@
 		position: absolute;
 		width: 21px;
 		height: 40px;
-		left: 1024px;
+		left: calc(1024px - 435px);
 		top: 515px;
 		overflow: visible;
 	}
@@ -112,6 +131,7 @@
 		width: 20px;
 		height: 40px;
 		left: 786px;
+		left: calc(786px - 435px);
 		top: 423px;
 		overflow: visible;
 	}
@@ -119,7 +139,7 @@
 		position: absolute;
 		width: 20px;
 		height: 40px;
-		left: 765px;
+		left: calc(765px - 435px);
 		top: 515px;
 		overflow: visible;
 	}
@@ -127,13 +147,13 @@
 		position: absolute;
 		width: 20px;
 		height: 40px;
-		left: 537px;
+		left: calc(537px - 435px);
 		top: 515px;
 		overflow: visible;
 	}
 	#ELIN__LIU {
 		filter: drop-shadow(0px 1px 1px rgba(0, 108, 116, 1));
-		left: 593px;
+		left: calc(588px - 435px);
 		top: 470px;
 		position: absolute;
 		overflow: visible;
@@ -148,7 +168,7 @@
 	}
 	#STEFAN_GARRIDO {
 		filter: drop-shadow(0px 1px 1px rgba(0, 108, 116, 1));
-		left: 450px;
+		left: calc(445px - 435px);
 		top: 566px;
 		position: absolute;
 		overflow: visible;
@@ -163,7 +183,7 @@
 	}
 	#SIMON_HOCKER {
 		filter: drop-shadow(0px 1px 1px rgba(0, 108, 116, 1));
-		left: 692px;
+		left: calc(692px - 435px);
 		top: 566px;
 		position: absolute;
 		overflow: visible;
@@ -178,7 +198,7 @@
 	}
 	#MATTIAS_NORDSTRAND {
 		filter: drop-shadow(0px 1px 1px rgba(0, 108, 116, 1));
-		left: 906px;
+		left: calc(906px - 435px);
 		top: 566px;
 		position: absolute;
 		overflow: visible;
@@ -193,7 +213,7 @@
 	}
 	#MARKUS_NEWTON_HEDELIN {
 		filter: drop-shadow(0px 1px 1px rgba(0, 108, 116, 1));
-		left: 1210px;
+		left: calc(1210px - 435px);
 		top: 566px;
 		position: absolute;
 		overflow: visible;
@@ -208,7 +228,7 @@
 	}
 	#RAKIN_ALI {
 		filter: drop-shadow(0px 1px 1px rgba(0, 108, 116, 1));
-		left: 740px;
+		left: calc(740px - 435px);
 		top: 470px;
 		position: absolute;
 		overflow: visible;
@@ -223,7 +243,7 @@
 	}
 	#LEY-OLIVIA_AVILA {
 		filter: drop-shadow(0px 1px 1px rgba(0, 108, 116, 1));
-		left: 899px;
+		left: calc(900px - 435px);
 		top: 471px;
 		position: absolute;
 		overflow: visible;
@@ -238,7 +258,7 @@
 	}
 	#MARTIN_FORSLUND {
 		filter: drop-shadow(0px 1px 1px rgba(0, 108, 116, 1));
-		left: 1144px;
+		left: calc(1144px - 435px);
 		top: 471px;
 		position: absolute;
 		overflow: visible;
@@ -253,7 +273,7 @@
 	}
 	#SCROLL_DOWN_TO_PLAY_THE_GAME {
 		filter: drop-shadow(1px 3px 3px rgba(0, 0, 0, 1));
-		left: 718px;
+		left: calc(50% - (487px / 2));
 		top: 701px;
 		position: absolute;
 		overflow: visible;
@@ -272,13 +292,13 @@
 		position: absolute;
 		width: 78px;
 		height: 70px;
-		left: 921px;
+		left: calc(50% - (78px / 2));
 		top: 930px;
 		overflow: visible;
 	}
 	#Want_to_ask_the_team_something {
 		filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 1));
-		left: 683px;
+		left: calc(50% - (556px / 2));
 		top: 1116px;
 		position: absolute;
 		overflow: visible;
@@ -295,7 +315,7 @@
 		position: absolute;
 		width: 669px;
 		height: 79px;
-		left: 626px;
+		left: calc(50% - (669px / 2));
 		top: 1533px;
 		overflow: visible;
 	}
@@ -303,14 +323,15 @@
 		position: absolute;
 		width: 800px;
 		height: 220px;
-		left: 560px;
+		left: calc(50% - (800px / 2));
 		top: 1587px;
 		overflow: visible;
 	}
 	#game {
 		position: absolute;
-		left: 430px;
+		left: calc(50% - (1024px / 2));
 		top: 1805px;
+		min-width: 1024px;
 		width: 1024px;
 		height: 768px;
 		overflow: visible;
@@ -3166,46 +3187,52 @@ window.application = new Application();
 	<div id="Turn-based_RPG_in_a_KTH_Kista_">
 		<span>Turn-based RPG in a KTH Kista setting</span>
 	</div>
-	<img id="Elin" src="Elin.png" srcset="Elin.png 1x, Elin@2x.png 2x">
 
-	<img id="leysan" src="leysan.png" srcset="leysan.png 1x, leysan@2x.png 2x">
 
-	<img id="Markus_sprites" src="Markus_sprites.png" srcset="Markus_sprites.png 1x, Markus_sprites@2x.png 2x">
+	<div id="npcs-container">
+		<div id="npcs">
+			<img id="Elin" src="Elin.png" srcset="Elin.png 1x, Elin@2x.png 2x">
 
-	<img id="Martin" src="Martin.png" srcset="Martin.png 1x, Martin@2x.png 2x">
+			<img id="leysan" src="leysan.png" srcset="leysan.png 1x, leysan@2x.png 2x">
 
-	<img id="Mattias" src="Mattias.png" srcset="Mattias.png 1x, Mattias@2x.png 2x">
+			<img id="Markus_sprites" src="Markus_sprites.png" srcset="Markus_sprites.png 1x, Markus_sprites@2x.png 2x">
 
-	<img id="Rakin" src="Rakin.png" srcset="Rakin.png 1x, Rakin@2x.png 2x">
+			<img id="Martin" src="Martin.png" srcset="Martin.png 1x, Martin@2x.png 2x">
 
-	<img id="Simon" src="Simon.png" srcset="Simon.png 1x, Simon@2x.png 2x">
+			<img id="Mattias" src="Mattias.png" srcset="Mattias.png 1x, Mattias@2x.png 2x">
 
-	<img id="Stefan" src="Stefan.png" srcset="Stefan.png 1x, Stefan@2x.png 2x">
+			<img id="Rakin" src="Rakin.png" srcset="Rakin.png 1x, Rakin@2x.png 2x">
 
-	<div id="ELIN__LIU">
-		<span>ELIN  LIU</span>
+			<img id="Simon" src="Simon.png" srcset="Simon.png 1x, Simon@2x.png 2x">
+
+			<img id="Stefan" src="Stefan.png" srcset="Stefan.png 1x, Stefan@2x.png 2x">
+			<div id="ELIN__LIU">
+				<span>ELIN  LIU</span>
+			</div>
+			<div id="STEFAN_GARRIDO">
+				<span>STEFAN GARRIDO</span>
+			</div>
+			<div id="SIMON_HOCKER">
+				<span>SIMON HOCKER</span>
+			</div>
+			<div id="MATTIAS_NORDSTRAND">
+				<span>MATTIAS NORDSTRAND</span>
+			</div>
+			<div id="MARKUS_NEWTON_HEDELIN">
+				<span>MARKUS NEWTON HEDELIN</span>
+			</div>
+			<div id="RAKIN_ALI">
+				<span>RAKIN ALI</span>
+			</div>
+			<div id="LEY-OLIVIA_AVILA">
+				<span>LEY-OLIVIA AVILA</span>
+			</div>
+			<div id="MARTIN_FORSLUND">
+				<span>MARTIN FORSLUND</span>
+			</div>
+		</div>
 	</div>
-	<div id="STEFAN_GARRIDO">
-		<span>STEFAN GARRIDO</span>
-	</div>
-	<div id="SIMON_HOCKER">
-		<span>SIMON HOCKER</span>
-	</div>
-	<div id="MATTIAS_NORDSTRAND">
-		<span>MATTIAS NORDSTRAND</span>
-	</div>
-	<div id="MARKUS_NEWTON_HEDELIN">
-		<span>MARKUS NEWTON HEDELIN</span>
-	</div>
-	<div id="RAKIN_ALI">
-		<span>RAKIN ALI</span>
-	</div>
-	<div id="LEY-OLIVIA_AVILA">
-		<span>LEY-OLIVIA AVILA</span>
-	</div>
-	<div id="MARTIN_FORSLUND">
-		<span>MARTIN FORSLUND</span>
-	</div>
+
 	<div id="SCROLL_DOWN_TO_PLAY_THE_GAME">
 		<span>SCROLL DOWN TO<br/>PLAY THE GAME</span>
 	</div>
@@ -3219,17 +3246,15 @@ window.application = new Application();
 
 	<img id="keys" src="keys.png" srcset="keys.png 1x, keys.png 2x">
 
+	<div id="game">
+		<iframe src="https://teamuppkvark.github.io/XOR-Win-or-Lose/index.html"
+		style="border:30px solid transparent;
+		border-image-source: url(border.png);
+		border-image-slice: 30;
+		top: 0; left: 0; width: 1024px; height: 768px; position: absolute;" scrolling="no" >
+		</iframe>
+	</div>
 </div>
-
-<div id="game">
-	<iframe src="https://teamuppkvark.github.io/XOR-Win-or-Lose/index.html"
-	style="border:30px solid transparent;
-	border-image-source: url(border.png);
-	border-image-slice: 30;
-	top: 0; left: 0; width: 1024px; height: 768px; position: absolute;" scrolling="no" >
-	</iframe>
-</div>
-
 
 </body>
 </html>
